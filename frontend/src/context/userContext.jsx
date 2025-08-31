@@ -15,7 +15,7 @@ export const UserProvider = ({ children }) => {
   const [followingUsers, setFollowingUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [storyList, setStoryList] = useState([]); // for fetched story list
-  const [prevChatUsers, setPrevChatUsers] = useState(null);
+  const [prevChatUsers, setPrevChatUsers] = useState([]);
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
   const navigate = useNavigate();
