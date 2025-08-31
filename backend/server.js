@@ -37,5 +37,5 @@ app.use("/api/message", messageRouter);
 
 app.listen(port, () => {
   connectDB();
-  console.log(`API Started ✅ on http://localhost:${port}`);
+  console.log(`API Started ✅`);
 });
